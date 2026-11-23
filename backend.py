@@ -10,7 +10,7 @@ JSON_URL = "https://users.metropolia.fi/~peterh/mps.json"
 # Etusivu
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("frontend.html")
 
 
 # Haetaan kansanedustajien tiedot
